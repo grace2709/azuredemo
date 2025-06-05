@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Azure Bot</title>
+  <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+</head>
+<body>
+  <div id="webchat" role="main"></div>
+  <script>
+    window.WebChat.renderWebChat({
+      directLine: window.WebChat.createDirectLine({
+        secret: 'D8gZuVinm4nDXxzUFmZ61fW7Mr43DX1BKEutRjwd5yWwOUB9GOL5JQQJ99BFACBsN54XJ3w3AAAaACOGKYlB'
+      })
+    }, document.getElementById('webchat'));
+  </script>
+</body>
+</html>
